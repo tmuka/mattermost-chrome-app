@@ -1,5 +1,5 @@
 this is a little chrome app wrapper so the open source slack clone, ["mattermost"](http://www.mattermost.com/) can be run in an isolated chrome window that opens links in the main chrome instance.
-This is unofficial, not related or approved by anyone, but it is working nicely for myself and my team.
+This is unofficial, not related or approved by anyone, but it is working nicely for myself and my team.  It uses chrome html5 notifications which work okay, but it would be nice if the taskbar icon would flash on new notifications too, maybe somebody knows how to do that in a chrome app?
 
 I only tried this in Windows 7 using Chrome stable, it will probably work anywhere chrome runs, git it a try!
 
