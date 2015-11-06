@@ -3,7 +3,7 @@ this is a little chrome app wrapper so the open source slack clone, ["mattermost
 This is unofficial, not related or approved by anyone, but it is working nicely for myself and my team.  
 
 
-I only tried this in Windows 7 using Chrome stable, it will probably work anywhere chrome runs, git it a try!
+I only tried this in Windows 7 using Chrome stable, it will probably work anywhere chrome runs, give it a try!
 
 # Mattermost Chrome Web App
 This is a chrome extension that provides a web wrapper to make mattermost chat work like a standalone chrome app so links will open in your main chrome window.
