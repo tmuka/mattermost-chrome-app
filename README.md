@@ -1,5 +1,7 @@
-this is a little chrome app wrapper so the open source slack clone, ["mattermost"](http://www.mattermost.com/) can be run in an isolated chrome window that opens links in the main chrome instance.
-This is unofficial, not related or approved by anyone, but it is working nicely for myself and my team.  It uses chrome html5 notifications which work okay, but it would be nice if the taskbar icon would flash on new notifications too, maybe somebody knows how to do that in a chrome app?
+this is a little chrome app wrapper so the open source slack clone, ["mattermost"](http://www.mattermost.com/) can be run in an isolated chrome window that opens links in the main chrome instance. Since it's a chrome app, you can pin the app icon to the windows start menu.  clicking links in chat open in Chrome, not in the chat window.
+
+This is unofficial, not related or approved by anyone, but it is working nicely for myself and my team.  
+
 
 I only tried this in Windows 7 using Chrome stable, it will probably work anywhere chrome runs, git it a try!
 
@@ -31,3 +33,6 @@ Now you should have an icon in your taskbar quick launch and start menu to direc
 
 ## Bonus Custom CSS
 I also use a few lines of custom CSS that make the view more compact. I use the [Stylish chrome extension](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?utm_source=chrome-app-launcher-info-dialog) to apply the styles located in the mattermost_compact.css file.
+
+## future enhancements
+1. It uses chrome html5 notifications which work okay, but it would be nice if the taskbar icon would flash on new notifications too, maybe somebody knows how to do that in a chrome app?
