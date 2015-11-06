@@ -7,6 +7,7 @@ I only tried this in Windows 7 using Chrome stable, it will probably work anywhe
 
 # Mattermost Chrome Web App
 This is a chrome extension that provides a web wrapper to make mattermost chat work like a standalone chrome app so links will open in your main chrome window.
+![](https://raw.githubusercontent.com/tmuka/mattermost-chrome-app/master/mattermost_chrome_app_screenshot.png)
 
 ## To set your own url and try it unpacked
 1. `git clone https://github.com/tmuka/mattermost-chrome-app.git` onto your local machine
