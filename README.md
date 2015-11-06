@@ -17,7 +17,7 @@ This is a chrome extension that provides a web wrapper to make mattermost chat w
 4. browse to and select the folder you cloned this project into.
 5. that should have added an white icon for "Mattermost Chrome App", right click on it, click "App Info". change from "Open in Tab" to "Open as window", click "Create shortcuts".
 
-## to pack the extension
+## To pack the extension
 1. in chrome, open url chrome://extensions/
 2. enable checkmark "Developer mode" (this will let you install an unpacked local extension)
 3. click "Pack extension"
@@ -34,5 +34,5 @@ Now you should have an icon in your taskbar quick launch and start menu to direc
 ## Bonus Custom CSS
 I also use a few lines of custom CSS that make the view more compact. I use the [Stylish chrome extension](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?utm_source=chrome-app-launcher-info-dialog) to apply the styles located in the mattermost_compact.css file.
 
-## future enhancements
+## Future enhancements
 1. It uses chrome html5 notifications which work okay, but it would be nice if the taskbar icon would flash on new notifications too, maybe somebody knows how to do that in a chrome app?
