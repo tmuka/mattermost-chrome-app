@@ -6,20 +6,17 @@
 .post-header-post {
 	display: none;
 }
+.post:hover { padding-bottom: 28px !important; }
 .post:hover .post-header-post {
 	display: block;
 	position: absolute;
-	top: -20px;
+	bottom: 0px;
 	right: 0;
 	padding: 2px 10px;
-	margin-top: -3px;
-	/* so the edit/reply menu doesn't close on us */
 	border: 1px solid #a8a8a8;
 	background: rgba(0,0,0,0.5);
 }
 .post .post-body {
-	/* line-height: 1.1em; */
-
 	margin: 1px 0 0;
 }
 .post p {
