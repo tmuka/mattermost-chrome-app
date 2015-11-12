@@ -1,32 +1,52 @@
 /* tony's custom styles for mattermost */
-
 .post {
-	padding: 0px 10px 0 !important;
+    padding: 0px 10px 0 !important;
 }
+
+/* comment out this section if you choose to use the alternative behavior below */
 .post-header-post {
-	display: none;
+    display: none;
 }
 .post:hover { padding-bottom: 28px !important; }
 .post:hover .post-header-post {
-	display: block;
-	position: absolute;
-	bottom: 0px;
-	right: 0;
-	padding: 2px 10px;
-	border: 1px solid #a8a8a8;
-	background: rgba(0,0,0,0.5);
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    padding: 2px 10px;
+    border: 1px solid #a8a8a8;
+    background: rgba(0,0,0,0.5);
 }
+
+/*	alternate styles to use if you only want to hide usernames/timestamps for repeated posts from the same user */
+/*
+.same--user .post-header-post {
+    display: none;
+}
+.same--user.post:hover { padding-bottom: 28px !important; }
+.same--user.post:hover .post-header-post {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    padding: 2px 10px;
+    border: 1px solid #a8a8a8;
+    background: rgba(0,0,0,0.5);
+}
+*/
+
+/* other subjective style tweaks */
 .post .post-body {
-	margin: 1px 0 0;
+    margin: 1px 0 0;
 }
 .post p {
-	margin: 0 0 1px 0;
+    margin: 0 0 1px 0;
 }
 .form-control[disabled],
 .form-control[readonly],
 fieldset[disabled] .form-control {
-	color: #333;
+    color: #333;
 }
 .post>div.post-profile-img__container .post-profile-img {
-	border-radius: 0;
+    border-radius: 0;
 }
