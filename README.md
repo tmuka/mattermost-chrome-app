@@ -35,6 +35,7 @@ This is a chrome extension that provides a web wrapper to make mattermost chat w
 
 ## Bonus Custom CSS
 I also use a few lines of custom CSS that make the view more compact. I use the [Stylish chrome extension](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?utm_source=chrome-app-launcher-info-dialog) to apply the styles located in the mattermost_compact.css file.
+By default i hide username and timestamp, unless they are hovered over, but i added an optional commented out section to the css you can uncomment so they are only hidden for repeated messages from the same user.
 
 ## Future enhancements
 1. It uses chrome html5 notifications which work okay, but it would be nice if the taskbar icon would flash on new notifications too, maybe somebody knows how to do that in a chrome app?
