@@ -35,6 +35,11 @@
 */
 /* other subjective style tweaks */
 
+.post a.dropdown-toggle {
+    display: block;
+    z-index: 99999;
+    position: relative;
+}
 .post .post-body {
     margin: 1px 0 0;
 }
