@@ -11,7 +11,8 @@
 			"http://mattermost.example.com/your-url/"
 			],
 		"launch": {
-			"web_url": "http://mattermost.example.com/your-url/"
+			"web_url": "http://mattermost.example.com/your-url/",
+			"container": "panel"
 		}
 	},
 	"permissions": [
