@@ -1,3 +1,7 @@
+# 2024 Update
+If you're finding this old project today, you might want to instead use Chrome's "[Create Shortcut](https://support.google.com/chrome_webstore/answer/3060053?hl=en)" feature with "Open as Window"...
+
+# Summary
 this is a little chrome app wrapper so the open source slack clone, ["mattermost"](http://www.mattermost.com/) can be run in an isolated chrome window that opens links in the main chrome instance. Since it's a chrome app, you can pin the app icon to the windows start menu.  clicking links in chat open in Chrome, not in the chat window.
 
 This is unofficial, not related or approved by anyone, but it is working nicely for myself and my team.
